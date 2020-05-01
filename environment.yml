@@ -1,0 +1,14 @@
+name: ccdutils
+channels:
+  - rdkit
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.3
+  - rdkit=2020.03.1
+  - numpy
+  - scipy=1.4.1
+  - pip
+  - sphinx
+  - pip:
+    - git+http://gitlab.com/glenveegee/PDBeCIF.git
