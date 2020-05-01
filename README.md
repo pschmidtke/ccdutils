@@ -16,6 +16,10 @@
 
 ## Installation instructions
 
+You have the choice to install the code using the original installation instructions. A conda environment is also provided allowing easy installation of ccdutils and deployment elsewhere. 
+
+### Standalone installation instructions
+
 * `pdbeccdutils` requires RDKit to be installed.
   The official RDKit documentation has [installation instructions for a variety of platforms](http://www.rdkit.org/docs/Install.html).
   For linux/mac OS this is most easily done using the anaconda python with commands similar to:
@@ -30,6 +34,14 @@
   ```console
   pip install git+https://gitlab.ebi.ac.uk/pdbe/ccdutils.git
   ```
+
+### Installation using conda
+
+You can also install a full conda environment for your development work on ccdutils using the following command:
+```conda env create -f environment.yml```
+
+Once this installation is done you can use the environment with: 
+```conda activate ccdutils```
 
 ## Features
 
